@@ -1,16 +1,2 @@
-# weatherapp_starter_project
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Alhamdulillah, I've successfully completed my final year thesis titled "Heatstroke Prediction in Bangladesh: WBGT Index-Based Machine Learning Approach with Mobile App Implementation" with my team mates Md. Istiaque Khalique and Tajwar Elahi Choudhury. 
+Our goal was to predict heatstroke without using an expensive prediction device. So we used Random Forest Regressor model to predict the value of Wet Bulb Globe Temperature which is an indicator of Heatstroke. After getting 99% accurate prediction we started implementing it in a mobile app so that any individuals can get Heatstroke danger alert on the go. And finally the outcome of our hard work is here, "HeatMeter" app. At the end, we are now aiming to make this app better and more accurate so that we can launch it for public use and save life. 
