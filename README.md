@@ -1,2 +1,10 @@
-Alhamdulillah, I've successfully completed my final year thesis titled "Heatstroke Prediction in Bangladesh: WBGT Index-Based Machine Learning Approach with Mobile App Implementation" with my team mates Md. Istiaque Khalique and Tajwar Elahi Choudhury. 
-Our goal was to predict heatstroke without using an expensive prediction device. So we used Random Forest Regressor model to predict the value of Wet Bulb Globe Temperature which is an indicator of Heatstroke. After getting 99% accurate prediction we started implementing it in a mobile app so that any individuals can get Heatstroke danger alert on the go. And finally the outcome of our hard work is here, "HeatMeter" app. At the end, we are now aiming to make this app better and more accurate so that we can launch it for public use and save life. 
+HeatMeter is a mobile application developed to predict heatstroke danger on the basis of WBGT( Wet Bulb Globe Temperature) index. 
+
+We used flutter to develop the app and used Random Forest machine learning model in the backend to predict WBGT. Currently the ML model is running on localhost using python.
+So how the app works is :
+
+Step 1: Get weather variables( Temperature, wind speed, relative humidity) from OpenWeatherMap API.
+Step 2: Send the received variables to the ML model
+Step 3: Receive the predicted WBGT value and provide heatstroke danger level. 
+
+The app also provides Precautions for heatstroke , Daily weather data, heatstroke symptoms and first aid steps in case of emergency.
